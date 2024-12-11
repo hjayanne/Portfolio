@@ -4,97 +4,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Hemalatha Jayanne Gowda</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Hemalatha Jayanne Gowda Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
   <!-- Navigation Bar -->
-  <nav class="navbar">
-    <ul class="nav-links">
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#work">Work Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Hemalatha Jayanne Gowda</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link js-scroll" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#experience">Work Experience</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#certifications">Certifications</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
-  <!-- Introduction Section -->
-  <section id="home" class="intro">
-    <div class="overlay"></div>
-    <div class="intro-content">
-      <h1>Hemalatha Jayanne Gowda</h1>
-      <p class="subtitle">Aspiring Technical Program Manager</p>
+  <!-- Hero Section -->
+  <header class="hero-section bg-image text-white text-center py-5" style="background-image: url('assets/img/bg-placeholder.jpg');">
+    <div class="container">
+      <h1 class="display-4">Hemalatha Jayanne Gowda</h1>
+      <p class="lead">Aspiring Technical Program Manager</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center">About Me</h2>
+      <p class="text-center">Hello! I'm Hemalatha Jayanne Gowda, pursuing a Master of Information Systems Management at Carnegie Mellon University. My expertise lies in program management, data analysis, and generative AI.</p>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-      Hello! I am Hemalatha Jayanne Gowda, currently pursuing a Master of Information Systems Management (MISM) at Carnegie Mellon University. My expertise lies in program management, data analysis, and generative AI.
-    </p>
-  </section>
-
   <!-- Education Section -->
-  <section id="education" class="section">
-    <h2>Education</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Master of Information Systems Management</h3>
-        <p>Carnegie Mellon University, 2023-2024</p>
-      </div>
-      <div class="card">
-        <h3>Bachelor of Technology in Computer Science</h3>
-        <p>BIT, 2017-2021</p>
+  <section id="education" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Education</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Master of Information Systems Management</h4>
+          <p>Carnegie Mellon University, 2023-2024</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Bachelor of Technology in Computer Science</h4>
+          <p>BIT, 2017-2021</p>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Work Experience Section -->
-  <section id="work" class="section">
-    <h2>Work Experience</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Associate Project Manager</h3>
-        <p>SAP Labs India, 2021-2023</p>
-      </div>
-      <div class="card">
-        <h3>Gen AI Research Intern</h3>
-        <p>Concepta Innovation Services, Summer 2024</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>A responsive website to showcase my professional achievements.</p>
-      </div>
-      <div class="card">
-        <h3>Generative AI Research</h3>
-        <p>Exploring the applications of AI in the tech industry.</p>
+  <section id="experience" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Work Experience</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Associate Project Manager</h4>
+          <p>SAP Labs India, 2021-2023</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Gen AI Research Intern</h4>
+          <p>Concepta Innovation Services, Summer 2024</p>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:hema.j.21gowda@gmail.com">hema.j.21gowda@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/hemalatha-jayanne-gowda">Profile</a></p>
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Contact</h2>
+      <ul class="list-unstyled text-center">
+        <li><i class="fas fa-envelope"></i> hema.j.21gowda@gmail.com</li>
+        <li><i class="fab fa-linkedin"></i> <a href="http://linkedin.com/in/hemalatha-jayanne-gowda" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2024 Hemalatha Jayanne Gowda</p>
-  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Smooth Scroll Script -->
+  <script>
+    document.querySelectorAll('a.js-scroll').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
