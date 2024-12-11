@@ -13,8 +13,9 @@ body {
   padding: 10px 0;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   z-index: 1000;
 }
 
@@ -41,4 +42,9 @@ body {
 
 .nav-links a:hover {
   color: #0056b3;
+}
+
+/* Content Offset for Fixed Navbar */
+body {
+  padding-top: 60px; /* Adjust based on navbar height */
 }
