@@ -9,8 +9,8 @@ body {
 
 /* Navigation Bar */
 .navbar {
-  background-color: #b3d9ff; /* Light powder blue */
-  padding: 10px 0;
+  background-color: #336699; /* Darker blue */
+  padding: 12.5px 0; /* Increased height by 25% */
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -46,5 +46,5 @@ body {
 
 /* Content Offset for Fixed Navbar */
 body {
-  padding-top: 60px; /* Adjust based on navbar height */
+  padding-top: 75px; /* Adjusted based on increased navbar height */
 }
