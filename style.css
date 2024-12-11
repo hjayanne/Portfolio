@@ -9,14 +9,15 @@ body {
 
 /* Navigation Bar */
 .navbar {
-  background-color: #1a4466; /* Even darker blue */
+  background-color: #0d2233; /* 50% darker blue */
   padding: 15px 0; /* Increased height by 50% */
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 150%; /* Increased width by 50% */
   z-index: 1000;
+  left: -25%; /* Center alignment for increased width */
 }
 
 .nav-links {
